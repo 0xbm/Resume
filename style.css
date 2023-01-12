@@ -1,18 +1,25 @@
+body {
+  font-family: Helvetica;
+  color: red;
+}
+
 h1 {
   font-size: 36px;
-  font-family: Helvetica;
 }
 
 h2 {
   font-size: 24px;
-  font-family: Helvetica;
 }
 
 h4 {
   font-size: 14px;
-  font-family: Helvetica;
 }
 
 span {
-  color: red;
+  color: grey;
+}
+
+img {
+  width: 150px;
+  height: 150px;
 }
