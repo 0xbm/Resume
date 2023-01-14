@@ -21,11 +21,6 @@ span {
   color: grey;
 }
 
-img {
-  width: 150px;
-  height: 150px;
-}
-
 section,
 header {
   padding: 10px 60px 20px 60px;
@@ -34,8 +29,32 @@ header {
   margin-left: 110px;
   margin: 0 auto 0 auto;
 }
-header{
+header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+header ul {
+  list-style: none;
+}
+
+header li {
+  margin-bottom: 15px;
+}
+
+.address-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  padding: 2px;
+  vertical-align: middle;
+  background-color: cornflowerblue;
+}
+.circle {
+  border-radius: 25%;
+}
+.profile-picture {
+  width: 200px;
+  height: 200px;
 }
