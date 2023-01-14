@@ -29,6 +29,7 @@ header {
   margin-left: 110px;
   margin: 0 auto 0 auto;
 }
+
 header {
   display: flex;
   align-items: center;
@@ -51,9 +52,11 @@ header li {
   vertical-align: middle;
   background-color: cornflowerblue;
 }
+
 .circle {
   border-radius: 25%;
 }
+
 .profile-picture {
   width: 200px;
   height: 200px;
