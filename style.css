@@ -15,6 +15,7 @@ h2 {
 
 h4 {
   font-size: 14px;
+  margin-top: 5px;
 }
 
 span {
@@ -60,4 +61,29 @@ header li {
 .profile-picture {
   width: 200px;
   height: 200px;
+}
+
+.hobbies {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hobbies li {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+.hobbies div {
+  margin-left: 20px;
+}
+
+.hobbies p {
+  color: grey;
+}
+
+p {
+  line-height: 1.5;
 }
