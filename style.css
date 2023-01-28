@@ -107,15 +107,22 @@ p {
 
 .cv-download-link:hover {
   color: white;
+  border: 2px solid cornflowerblue;
+
   background-color: cornflowerblue;
 }
 
 .cv-download-link:focus {
   outline: none;
   color: white;
+  border: 2px solid cornflowerblue;
   background-color: cornflowerblue;
 }
 
 .cv_download_link:active {
   text-decoration: underline;
+}
+
+.download-cv-link:visited {
+  border: 2px solid grey;
 }
