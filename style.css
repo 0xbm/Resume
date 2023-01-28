@@ -1,7 +1,6 @@
 body {
   font-family: Helvetica;
   background-color: aliceblue;
-  /* color: red; */
   padding: 40px 0px;
 }
 
@@ -90,7 +89,8 @@ li {
 }
 
 p {
-  line-height: 1.7;
+  line-height: 1.3;
+  /* margin-top: 1px; */
 }
 
 .cv-download-link {
