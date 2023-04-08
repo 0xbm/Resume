@@ -69,7 +69,7 @@ li {
 
 .hobbies {
   list-style: none;
-  padding: 0px;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
 }
